@@ -1,0 +1,302 @@
+lockfile_version: '1'
+generated_at: '2026-11-22T19:22:47.234086+00:00'
+apm_version: 0.26.0
+dependencies:
+- repo_url: addyosmani/agent-skills
+  name: test-driven-development
+  host: github.com
+  resolved_commit: 8c99fa36d90068c82d547f7c12a9d67a3e95f4ee
+  resolved_ref: 8c99fa36d90068c82d547f7c12a9d67a3e95f4ee
+  version: unknown
+  virtual_path: skills/test-driven-development
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/test-driven-development
+  - .agents/skills/test-driven-development/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/test-driven-development/SKILL.md: sha256:24ff76db6227bd74075381f16a5830add333439968f23c3f73987fac2290fe2a
+  content_hash: sha256:c77933271bb4bd64ce499c65fe37664c05387f9f9c8c704f440ef96da75711b8
+- repo_url: android/skills
+  name: android-cli
+  host: github.com
+  resolved_commit: c72942584fff970dac86ced78b367fce0c441e52
+  resolved_ref: c72942584fff970dac86ced78b367fce0c441e52
+  version: unknown
+  virtual_path: devtools/android-cli
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/android-cli
+  - .agents/skills/android-cli/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/android-cli/SKILL.md: sha256:d53f24079877c8fc69b7a6115a77a76c8c7f40716ba089fd738c10514bf11d4c
+  content_hash: sha256:472ace699351ba7974e1438c2dd41b2a8ec2310907f958b4532b59a59655f87b
+- repo_url: salimramirez/agent-skills
+  name: ddd-playbook
+  host: github.com
+  resolved_commit: 7c23b8a84b394edcc027e84b884703d912606085
+  resolved_ref: 7c23b8a84b394edcc027e84b884703d912606085
+  version: unknown
+  virtual_path: skills/ddd-playbook
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/ddd-playbook
+  - .agents/skills/ddd-playbook/SKILL.md
+  - .agents/skills/ddd-playbook/references/modeling-process.md
+  - .agents/skills/ddd-playbook/references/strategic-design.md
+  - .agents/skills/ddd-playbook/references/tactical-patterns.md
+  deployed_file_hashes:
+    .agents/skills/ddd-playbook/SKILL.md: sha256:e2365b13e9422053490716b1c309351cb1d3a13c7d841a26de1d392c2ea262ef
+    .agents/skills/ddd-playbook/references/modeling-process.md: sha256:3ed3968ce96c1e9fe60cf1a2b01ecf7f4b0d485437fec828a3eb84fa18e933da
+    .agents/skills/ddd-playbook/references/strategic-design.md: sha256:8aab8076804c47fbaca1f1f27dfb9ace594cae5b91b5b5b70b217337b5fa1f0a
+    .agents/skills/ddd-playbook/references/tactical-patterns.md: sha256:fac96269bf37a31ec626f2bed8684787c4c1a956d75fe943fb7467287f813959
+  content_hash: sha256:96fdda56151379d13d7201d893fa77c4d685319aaf3848dd459911a3a2700df7
+- repo_url: shinkev/kmp-skill-library
+  name: kmp-testing
+  host: github.com
+  resolved_commit: b2b0e1ea49d272a688a9fe77f7bb263320b8ea40
+  resolved_ref: b2b0e1ea49d272a688a9fe77f7bb263320b8ea40
+  version: unknown
+  virtual_path: testing_and_automation/kmp-testing
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/kmp-testing
+  - .agents/skills/kmp-testing/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/kmp-testing/SKILL.md: sha256:882f87718dbe906f487bf6737192ec639f50a2cfa519426ec4376794e764ec16
+  content_hash: sha256:9322dbde0222350dd26d47f835d935b96fc75233093a780e1dc41799d66cfda5
+- repo_url: shinkev/kmp-skill-library
+  name: compose-ui
+  host: github.com
+  resolved_commit: b2b0e1ea49d272a688a9fe77f7bb263320b8ea40
+  resolved_ref: b2b0e1ea49d272a688a9fe77f7bb263320b8ea40
+  version: unknown
+  virtual_path: ui/compose-ui
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/compose-ui
+  - .agents/skills/compose-ui/SKILL.md
+  deployed_file_hashes:
+    .agents/skills/compose-ui/SKILL.md: sha256:6c281b624d91858a4ef634665f26e113283cc868f5874de9737fa4bcd05d81fb
+  content_hash: sha256:521a4523f95c8a8d2353f0f3eb480454a02ab49b0ada48370dca00159680935a
+- repo_url: wondelai/skills
+  name: clean-architecture
+  host: github.com
+  resolved_commit: c37678106e63ef1c5472d848fb3d8b8c5b33fafe
+  resolved_ref: c37678106e63ef1c5472d848fb3d8b8c5b33fafe
+  version: unknown
+  virtual_path: clean-architecture
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/clean-architecture
+  - .agents/skills/clean-architecture/SKILL.md
+  - .agents/skills/clean-architecture/references/adapters-frameworks.md
+  - .agents/skills/clean-architecture/references/boundaries.md
+  - .agents/skills/clean-architecture/references/component-principles.md
+  - .agents/skills/clean-architecture/references/dependency-rule.md
+  - .agents/skills/clean-architecture/references/entities-use-cases.md
+  - .agents/skills/clean-architecture/references/solid-principles.md
+  deployed_file_hashes:
+    .agents/skills/clean-architecture/SKILL.md: sha256:fc9fe201ae040df80164bc7a407507882783e2c8cdbc0379a1fbdcf3719e4446
+    .agents/skills/clean-architecture/references/adapters-frameworks.md: sha256:548cf58a878f29b3f6cd2b74f0e355a213c23cc757a0ad858f086ba77d9ec8e1
+    .agents/skills/clean-architecture/references/boundaries.md: sha256:a5eb0efa34d4e42cc8b6f6ab0f23b08acfb3ad2efa94094a6548f2e129066805
+    .agents/skills/clean-architecture/references/component-principles.md: sha256:fcf09d8d24a5eaa45050d328252d18357f7eaa137737f867860a421bbe3bfa5c
+    .agents/skills/clean-architecture/references/dependency-rule.md: sha256:6f95edd35d9934d7151e30ce1676e52d0a45d41daa97c4ebeb4e085b62ce2be9
+    .agents/skills/clean-architecture/references/entities-use-cases.md: sha256:8304bd7c89284b711e8756d210580cae095df6e702abcdd35ae066ddde981ff0
+    .agents/skills/clean-architecture/references/solid-principles.md: sha256:d39b63f6dbe89698ab18e1acf765cd8333db4beeb1e0afac01e9b945db57a2d2
+  content_hash: sha256:db875720fa0d5102f2b45f965e2b1020df2261cbbd20c678b6047cb39dd7ba5d
+deployments:
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/android-cli
+  runtime: null
+  scope: project
+  owners:
+  - android/skills/devtools/android-cli
+  active_owner: android/skills/devtools/android-cli
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/android-cli/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - android/skills/devtools/android-cli
+  active_owner: android/skills/devtools/android-cli
+  content_hash: sha256:d53f24079877c8fc69b7a6115a77a76c8c7f40716ba089fd738c10514bf11d4c
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/clean-architecture
+  runtime: null
+  scope: project
+  owners:
+  - wondelai/skills/clean-architecture
+  active_owner: wondelai/skills/clean-architecture
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/clean-architecture/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - wondelai/skills/clean-architecture
+  active_owner: wondelai/skills/clean-architecture
+  content_hash: sha256:fc9fe201ae040df80164bc7a407507882783e2c8cdbc0379a1fbdcf3719e4446
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/clean-architecture/references/adapters-frameworks.md
+  runtime: null
+  scope: project
+  owners:
+  - wondelai/skills/clean-architecture
+  active_owner: wondelai/skills/clean-architecture
+  content_hash: sha256:548cf58a878f29b3f6cd2b74f0e355a213c23cc757a0ad858f086ba77d9ec8e1
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/clean-architecture/references/boundaries.md
+  runtime: null
+  scope: project
+  owners:
+  - wondelai/skills/clean-architecture
+  active_owner: wondelai/skills/clean-architecture
+  content_hash: sha256:a5eb0efa34d4e42cc8b6f6ab0f23b08acfb3ad2efa94094a6548f2e129066805
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/clean-architecture/references/component-principles.md
+  runtime: null
+  scope: project
+  owners:
+  - wondelai/skills/clean-architecture
+  active_owner: wondelai/skills/clean-architecture
+  content_hash: sha256:fcf09d8d24a5eaa45050d328252d18357f7eaa137737f867860a421bbe3bfa5c
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/clean-architecture/references/dependency-rule.md
+  runtime: null
+  scope: project
+  owners:
+  - wondelai/skills/clean-architecture
+  active_owner: wondelai/skills/clean-architecture
+  content_hash: sha256:6f95edd35d9934d7151e30ce1676e52d0a45d41daa97c4ebeb4e085b62ce2be9
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/clean-architecture/references/entities-use-cases.md
+  runtime: null
+  scope: project
+  owners:
+  - wondelai/skills/clean-architecture
+  active_owner: wondelai/skills/clean-architecture
+  content_hash: sha256:8304bd7c89284b711e8756d210580cae095df6e702abcdd35ae066ddde981ff0
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/clean-architecture/references/solid-principles.md
+  runtime: null
+  scope: project
+  owners:
+  - wondelai/skills/clean-architecture
+  active_owner: wondelai/skills/clean-architecture
+  content_hash: sha256:d39b63f6dbe89698ab18e1acf765cd8333db4beeb1e0afac01e9b945db57a2d2
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/compose-ui
+  runtime: null
+  scope: project
+  owners:
+  - shinkev/kmp-skill-library/ui/compose-ui
+  active_owner: shinkev/kmp-skill-library/ui/compose-ui
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/compose-ui/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - shinkev/kmp-skill-library/ui/compose-ui
+  active_owner: shinkev/kmp-skill-library/ui/compose-ui
+  content_hash: sha256:6c281b624d91858a4ef634665f26e113283cc868f5874de9737fa4bcd05d81fb
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/ddd-playbook
+  runtime: null
+  scope: project
+  owners:
+  - salimramirez/agent-skills/skills/ddd-playbook
+  active_owner: salimramirez/agent-skills/skills/ddd-playbook
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/ddd-playbook/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - salimramirez/agent-skills/skills/ddd-playbook
+  active_owner: salimramirez/agent-skills/skills/ddd-playbook
+  content_hash: sha256:e2365b13e9422053490716b1c309351cb1d3a13c7d841a26de1d392c2ea262ef
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/ddd-playbook/references/modeling-process.md
+  runtime: null
+  scope: project
+  owners:
+  - salimramirez/agent-skills/skills/ddd-playbook
+  active_owner: salimramirez/agent-skills/skills/ddd-playbook
+  content_hash: sha256:3ed3968ce96c1e9fe60cf1a2b01ecf7f4b0d485437fec828a3eb84fa18e933da
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/ddd-playbook/references/strategic-design.md
+  runtime: null
+  scope: project
+  owners:
+  - salimramirez/agent-skills/skills/ddd-playbook
+  active_owner: salimramirez/agent-skills/skills/ddd-playbook
+  content_hash: sha256:8aab8076804c47fbaca1f1f27dfb9ace594cae5b91b5b5b70b217337b5fa1f0a
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/ddd-playbook/references/tactical-patterns.md
+  runtime: null
+  scope: project
+  owners:
+  - salimramirez/agent-skills/skills/ddd-playbook
+  active_owner: salimramirez/agent-skills/skills/ddd-playbook
+  content_hash: sha256:fac96269bf37a31ec626f2bed8684787c4c1a956d75fe943fb7467287f813959
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/kmp-testing
+  runtime: null
+  scope: project
+  owners:
+  - shinkev/kmp-skill-library/testing_and_automation/kmp-testing
+  active_owner: shinkev/kmp-skill-library/testing_and_automation/kmp-testing
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/kmp-testing/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - shinkev/kmp-skill-library/testing_and_automation/kmp-testing
+  active_owner: shinkev/kmp-skill-library/testing_and_automation/kmp-testing
+  content_hash: sha256:882f87718dbe906f487bf6737192ec639f50a2cfa519426ec4376794e764ec16
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/test-driven-development
+  runtime: null
+  scope: project
+  owners:
+  - addyosmani/agent-skills/skills/test-driven-development
+  active_owner: addyosmani/agent-skills/skills/test-driven-development
+  content_hash: null
+- kind: project-relative
+  target: copilot
+  value: .agents/skills/test-driven-development/SKILL.md
+  runtime: null
+  scope: project
+  owners:
+  - addyosmani/agent-skills/skills/test-driven-development
+  active_owner: addyosmani/agent-skills/skills/test-driven-development
+  content_hash: sha256:24ff76db6227bd74075381f16a5830add333439968f23c3f73987fac2290fe2a

@@ -1,0 +1,23 @@
+name: pokequizz
+version: 1.0.0
+description: Copilot reference skills for Kotlin and Compose Multiplatform
+# Reinstallation removes added LICENSE and NOTICE files from installed skills;
+# restore upstream license notices before redistributing those copies.
+targets:
+  - copilot
+
+dependencies:
+  apm:
+    # Compose Multiplatform and shared-code testing
+    - ShinKev/kmp-skill-library/ui/compose-ui#b2b0e1ea49d272a688a9fe77f7bb263320b8ea40
+    - ShinKev/kmp-skill-library/testing_and_automation/kmp-testing#b2b0e1ea49d272a688a9fe77f7bb263320b8ea40
+    # Architecture and domain modeling
+    - wondelai/skills/clean-architecture#c37678106e63ef1c5472d848fb3d8b8c5b33fafe
+    - salimramirez/agent-skills/skills/ddd-playbook#7c23b8a84b394edcc027e84b884703d912606085
+    # Test-driven development
+    - addyosmani/agent-skills/skills/test-driven-development#8c99fa36d90068c82d547f7c12a9d67a3e95f4ee
+    # Android CLI; install specialized Android skills only when needed
+    - android/skills/devtools/android-cli#c72942584fff970dac86ced78b367fce0c441e52
+  mcp: []
+
+includes: auto
