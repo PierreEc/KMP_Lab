@@ -16,8 +16,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import org.jetbrains.compose.resources.painterResource
 
-import pokequizz.shared.generated.resources.Res
-import pokequizz.shared.generated.resources.compose_multiplatform
+import fr.m2.pokequiz.resources.Res
+import fr.m2.pokequiz.resources.compose_multiplatform
+
 
 @Composable
 @Preview
