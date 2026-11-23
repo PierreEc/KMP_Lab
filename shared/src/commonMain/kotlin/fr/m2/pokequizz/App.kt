@@ -17,8 +17,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import org.jetbrains.compose.resources.painterResource
 
 import fr.m2.pokequiz.resources.Res
+import fr.m2.pokequiz.resources.app_name
 import fr.m2.pokequiz.resources.compose_multiplatform
 import fr.m2.pokequiz.ui.theme.PokeQuizTheme
+import org.jetbrains.compose.resources.stringResource
 
 
 @Composable
@@ -35,7 +37,11 @@ fun App() {
         ) {
             Button(onClick = { showContent = !showContent }) {
                 Text("Click me!")
-            }
+            };
+            Text(
+                stringResource(Res.string.app_name),
+                style = MaterialTheme.typography.headlineLarge,
+            )
             AnimatedVisibility(showContent) {
                 val greeting = remember { Greeting().greet() }
                 Column(
