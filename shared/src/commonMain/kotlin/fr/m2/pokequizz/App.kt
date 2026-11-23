@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.safeContentPadding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -14,11 +15,14 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+import fr.m2.pokequiz.data.FakePokemons
 import org.jetbrains.compose.resources.painterResource
 
 import fr.m2.pokequiz.resources.Res
 import fr.m2.pokequiz.resources.app_name
 import fr.m2.pokequiz.resources.compose_multiplatform
+import fr.m2.pokequiz.ui.PokemonImage
 import fr.m2.pokequiz.ui.theme.PokeQuizTheme
 import org.jetbrains.compose.resources.stringResource
 
@@ -35,22 +39,10 @@ fun App() {
                 .fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-            Button(onClick = { showContent = !showContent }) {
-                Text("Click me!")
-            };
-            Text(
-                stringResource(Res.string.app_name),
-                style = MaterialTheme.typography.headlineLarge,
-            )
-            AnimatedVisibility(showContent) {
-                val greeting = remember { Greeting().greet() }
-                Column(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalAlignment = Alignment.CenterHorizontally,
-                ) {
-                    Image(painterResource(Res.drawable.compose_multiplatform), null)
-                    Text("Compose: $greeting")
-                }
+            var gray by remember { mutableStateOf(true) }
+            Column {
+                PokemonImage(FakePokemons.pikachu.imageUrl, grayscale = gray, modifier = Modifier.size(240.dp))
+                Button(onClick = { gray = !gray }) { Text("Basculer") }
             }
         }
     }
