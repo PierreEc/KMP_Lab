@@ -18,12 +18,13 @@ import org.jetbrains.compose.resources.painterResource
 
 import fr.m2.pokequiz.resources.Res
 import fr.m2.pokequiz.resources.compose_multiplatform
+import fr.m2.pokequiz.ui.theme.PokeQuizTheme
 
 
 @Composable
 @Preview
 fun App() {
-    MaterialTheme {
+    PokeQuizTheme {
         var showContent by remember { mutableStateOf(false) }
         Column(
             modifier = Modifier
